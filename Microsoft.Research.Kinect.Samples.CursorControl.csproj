@@ -109,6 +109,7 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Celula.ico" />
     <Content Include="CursorControl.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
