@@ -3,11 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Kinect Cursor Control" Height="385.553" Width="386.553" Loaded="Window_Loaded" Closed="Window_Closed" 
         WindowStartupLocation="CenterScreen" StateChanged="Window_StateChanged" ResizeMode="CanMinimize" Icon="Celula.ico">
-    <StackPanel>
-        <!--<Image Width="150" Height="50"></Image>-->
+    <StackPanel>        
         <Image Width="320" Height="240" Name="video"/>
         <CheckBox Name="LeftHand">Left-handed</CheckBox>
         <TextBlock x:Name="Status" FontSize="36" />
-        <TextBlock FontSize="23" TextAlignment="Center"> Célula Estudiantil Microsoft ESPOL </TextBlock>
+        <TextBlock FontSize="23" TextAlignment="Center" RenderTransformOrigin="0.493,1.367"> Célula Estudiantil Microsoft ESPOL </TextBlock>
     </StackPanel>
 </Window>
